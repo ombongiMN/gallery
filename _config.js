@@ -6,5 +6,6 @@ config.mongoURI = {
     development: 'mongodb+srv://<USERNAME>:<PASSWORD>@gallery.wc344.mongodb.net/darkroom-dev?retryWrites=true&w=majority',
     test: 'mongodb+srv://<USERNAME>:<PASSWORD>@gallery.wc344.mongodb.net/darkroom-test?retryWrites=true&w=majority',
     remoteconnector: 'mongodb+srv://ombongiMN:pvs4JxtGoTA3joFq@cluster0.p3mvbu5.mongodb.net/?retryWrites=true&w=majority'
+
 }
 module.exports = config;
